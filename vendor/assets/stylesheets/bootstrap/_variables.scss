@@ -191,7 +191,7 @@ $infoBorder:              darken(adjust-hue($infoBackground, -10), 7%) !default;
 // -------------------------
 $gridColumns:             12 !default;
 $gridColumnWidth:         60px !default;
-$gridGutterWidth:         20px !default;
+$gridGutterWidth:         0px !default;
 $gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1)) !default;
 
 // Portrait tablet to default desktop
